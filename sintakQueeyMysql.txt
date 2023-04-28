@@ -1,0 +1,72 @@
+SQL QUERY
+
+	Melihat database
+
+show databases;
+	
+	Membuat database
+
+create database nama_database;
+
+	Masuk ke salah satu databases
+
+use nama_database;
+
+	Membuat tabel 
+
+create table nama_tabel(isi structure dari databasenya misalnya id int primary key auto_increment, nama varchar(100), alamat dan ssampai selesai );
+
+	Melihat tabel
+
+show tables;
+
+	Melihat structure tabel
+
+describe nama_tabel
+
+	Menambahkan data/ membuat data
+
+insert into nama_tabel(nama, alamat, nip, nohp) values('Sena pernata', 'Br. Dinas Bias', 989878764654, 9898776765575);
+
+atau
+
+insert into nama_tabel values('', 'Sena Pernata', 'abang', 978967654644, 9978787567568);
+
+
+	Melihat data yang baru di insert
+
+SELECT * FROM nama_tabel
+
+
+	Melihat data sesuai dengan filter yang diberi
+
+select nip from nama_tabel;
+
+	Melihat data dengan filter untuk mencari data lebih dari satu
+
+select id, nama from nama_tabel;
+
+	Melihat data atau memfilter dengan sebuah id atau pun yang lain untuk mencari data seseorang melalui id nya itu
+
+select * from nama_tabel where id=1;
+
+	Update data yang ada di database
+
+update nama_tabel set nama='Pernata', alamat='banjar sadimara' where id=1;
+
+catatan : jika yang tidak mau di update jangan di tulis.
+
+	
+	Delete data yang ada
+
+delete from nama_tabel where id=1;
+
+
+	Menghapus tabel database
+
+drop table nama_tabel;
+
+
+	Menghapus Database
+
+drop database nama_database
