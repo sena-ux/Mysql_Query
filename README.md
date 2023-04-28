@@ -4,11 +4,11 @@
 
  ### Melihat database
 ```bash 
-create database nama_database;
+show databases;
 ```
  ### Membuat database
 ```bash 
-show databases;
+create database nama_database;
 ```
  ### Masuk ke salah satu databases
 ```bash 
@@ -16,8 +16,10 @@ use nama_database;
 ```
  ### Membuat tabel
 ```bash 
-create table nama_tabel(isi structure dari databasenya misalnya id int primary key auto_increment, nama varchar(100), alamat dan ssampai selesai );
+create table nama_tabel(id int primary key auto_increment, nama varchar(100), alamat varchar(100), nip varchar(100), nohp varchar(20));
 ```
+Keterangan : Yang didalam tanda kurung itu adalah struktur dari tabel kita yah.
+
  ### Melihat tabel
 ```bash 
 show tables;
