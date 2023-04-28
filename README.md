@@ -1,4 +1,4 @@
-![mysql]https://tse2.mm.bing.net/th?id=OIP.zeQ4kZkfdqXn3xesbTc6_wHaFI&pid=Api&P=0
+![mysql](https://tse2.mm.bing.net/th?id=OIP.zeQ4kZkfdqXn3xesbTc6_wHaFI&pid=Api&P=0)
 
 # SQL QUERY
 
