@@ -14,7 +14,7 @@ use nama_database;
 
 	Membuat tabel 
 
-create table nama_tabel(isi structure dari databasenya misalnya id int primary key auto_increment, nama varchar(100), alamat dan ssampai selesai );
+create table nama_tabel(isi structure dari databasenya misalnya id int primary key auto_increment, nama varchar(100), alamat dan sampai selesai );
 
 	Melihat tabel
 
@@ -24,7 +24,7 @@ show tables;
 
 describe nama_tabel
 
-	Menambahkan data/ membuat data
+	Menambahkan data/ insert data
 
 insert into nama_tabel(nama, alamat, nip, nohp) values('Sena pernata', 'Br. Dinas Bias', 989878764654, 9898776765575);
 
@@ -69,4 +69,4 @@ drop table nama_tabel;
 
 	Menghapus Database
 
-drop database nama_database
+drop database nama_database;
